@@ -3,6 +3,7 @@
 /**
  * Module dependencies.
  */
+require('./server/config/config');
 
 var {app} = require('../app');
 var debug = require('debug')('mean-app:server');
